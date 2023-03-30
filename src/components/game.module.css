@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.gameContainer {
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gameBox {
+  margin: 2rem;
+  height: 25rem;
+  width: 35rem;
+  background-color: cadetblue;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: 5px 13px 10px -7px rgba(0.5, 0.5, 0.5, 0.5);
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0, 1);
+}
+.number {
+  margin: 1rem;
+  padding: 1rem;
+  margin-top: 8rem;
+  height: 3rem;
+  width: 15rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+.submitBtn {
+  margin: 1rem;
+  height: 3rem;
+  width: 10rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: brown;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px -7px rgba(34, 29, 29, 0.5);
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0, 0);
+}
+.submitBtn:hover {
+  background-color: rgb(214, 130, 130);
+}
+.error {
+  margin-top: 2rem;
+  color: red;
+}
+.again {
+  margin: 1rem;
+  height: 3rem;
+  width: 10rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: brown;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px -7px rgba(34, 29, 29, 0.5);
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0, 0);
+}
+
+h2 {
+  color: green;
+}
+.errorNot {
+  margin-top: 4rem;
+  color: green;
+  font-size: large;
+}
